@@ -1,0 +1,149 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background: var(--WHITE, #fff);
+}
+.main-section {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.section-benefit {
+  background: #fff;
+}
+.section-our-team {
+  background: var(--CLOUD, #f4f4fd);
+}
+.section-our-portfolio {
+  background: #fff;
+}
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.main-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+.title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+}
+.text-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.text-medium {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-medium:hover,
+.text-medium:focus {
+  color: var(--OCEAN, #404bbf);
+}
+.text-footer {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.half-logo-black {
+  color: #2e2f42;
+}
+.half-logo-white {
+  color: #f4f4fd;
+}
+.address {
+  font-style: normal;
+}
+.button {
+  background: var(--IRIS, #4d5ae5);
+
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--OCEAN, #404bbf);
+}
+
+.contact {
+  font-size: 16px;
+  justify-content: center;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+  color: #434455;
+  line-height: 1.5;
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.icon {
+  background-color: #ffffff;
+}
