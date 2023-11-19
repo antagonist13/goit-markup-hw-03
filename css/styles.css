@@ -27,18 +27,7 @@ ol {
 img {
   display: block;
 }
-.main-title {
-  color: var(--WHITE, #fff);
-  text-align: center;
 
-  /* Header 1 */
-  font-family: Roboto;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  line-height: 1.07;
-}
 .title {
   font-family: Roboto;
   font-size: 36px;
@@ -99,7 +88,10 @@ img {
   margin-left: 0;
   margin-right: 0;
 }
-
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* HEADER */
 .header {
   background: var(--WHITE, #fff);
@@ -160,11 +152,29 @@ img {
   padding: 24px 0;
 }
 /* SECTION EFFECTIVE SOLUTIONS */
+.main-title {
+  color: var(--WHITE, #fff);
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 68px;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
 .main-section {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .button {
+  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
   color: var(--WHITE, #fff);
 
   font-family: "Roboto", sans-serif;
@@ -174,6 +184,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 68px;
 }
 .button:hover,
 .button:focus {
@@ -182,6 +200,30 @@ img {
 /* SECTION BENEFITS*/
 .section-benefit {
   background: #fff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.benefit-main-block {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+.benefit-block {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 72px) / 4);
+}
+.text-title-benefit {
+  display: block;
+  margin-bottom: 8px;
 }
 /* SECTION OUR TEAM*/
 .section-our-team {
