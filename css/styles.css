@@ -261,10 +261,9 @@ img {
 .text-area-portfolio {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
-}
-.text-area-portfolio-non-border {
   border-top: none;
 }
+
 /* FOOTER */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
