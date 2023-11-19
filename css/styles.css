@@ -235,7 +235,7 @@ img {
   gap: 24px;
 }
 .icon {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -259,10 +259,14 @@ img {
   flex-wrap: wrap;
 }
 .icon-portfolio {
-  width: calc((100% - 48px) / 2);
+  width: calc((100% - 48px) / 3);
 }
-/*  ТИ ЗУПИНИВСЯ ТУТ, РОЗРАХУЙ РОЗМІР КОМІРОК */
+.icon-portfolio:not(:nth-child(-n + 3)) {
+  margin-top: 48px;
+}
 .text-area-portfolio {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* FOOTER */
 .footer {
