@@ -143,7 +143,7 @@ img {
 }
 .item-flex-header-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-link {
   display: block;
@@ -262,9 +262,13 @@ img {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
+.text-area-portfolio-non-border {
+  border-top: none;
+}
 /* FOOTER */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
 }
 .text-footer {
   color: var(--CLOUD, #f4f4fd);
@@ -277,9 +281,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-}
-.footer-data {
-  padding: 100px 0;
 }
 
 .logo-footer {
