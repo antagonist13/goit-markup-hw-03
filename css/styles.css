@@ -1,32 +1,31 @@
+/* COMMON STYLES*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: white;
   color: #434455;
 }
 a {
   text-decoration: none;
 }
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
-
-.header {
-  background: var(--WHITE, #fff);
-}
-.main-section {
-  background: var(--NAVY-BLUE, #2e2f42);
-}
-.section-benefit {
-  background: #fff;
-}
-.section-our-team {
-  background: var(--CLOUD, #f4f4fd);
-}
-.section-our-portfolio {
-  background: #fff;
-}
-.footer {
-  background: var(--NAVY-BLUE, #2e2f42);
+img {
+  display: block;
 }
 .main-title {
   color: var(--WHITE, #fff);
@@ -93,14 +92,29 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* HEADER */
+.header {
+  background: var(--WHITE, #fff);
+}
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: block;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 .half-logo-black {
   color: #2e2f42;
@@ -110,27 +124,8 @@ ul {
 }
 .address {
   font-style: normal;
+  display: block;
 }
-.button {
-  background: var(--IRIS, #4d5ae5);
-
-  color: var(--WHITE, #fff);
-
-  /* Button Text */
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button:hover,
-.button:focus {
-  background: var(--OCEAN, #404bbf);
-}
-
 .contact {
   font-size: 16px;
   justify-content: center;
@@ -138,12 +133,65 @@ ul {
   flex-shrink: 0;
   color: #434455;
   line-height: 1.5;
+  display: block;
+  padding: 24px 0;
 }
 .contact:hover,
 .contact:focus {
   color: #404bbf;
 }
-
 .icon {
   background-color: #ffffff;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-flex-header {
+  display: flex;
+}
+.item-flex-header-list {
+  display: flex;
+  column-gap: 40px;
+}
+.menu-link {
+  display: block;
+  padding: 24px 0;
+}
+/* SECTION EFFECTIVE SOLUTIONS */
+.main-section {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.button {
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background: var(--OCEAN, #404bbf);
+}
+/* SECTION BENEFITS*/
+.section-benefit {
+  background: #fff;
+}
+/* SECTION OUR TEAM*/
+.section-our-team {
+  background: var(--CLOUD, #f4f4fd);
+}
+/* SECTION OUR PORTFOLIO*/
+.section-our-portfolio {
+  background: #fff;
+}
+/* FOOTER */
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
 }
