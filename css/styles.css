@@ -155,7 +155,6 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 68px;
 
   /* Header 1 */
   font-family: Roboto;
@@ -164,6 +163,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.07;
+  text-align: center;
 }
 .main-section {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -283,6 +283,16 @@ img {
 }
 
 .logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: block;
+  padding: 24px 0;
+
   display: inline-block;
   margin-bottom: 16px;
 }
